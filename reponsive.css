@@ -44,14 +44,46 @@
   .section_menu {
     height: auto;
   }
-  .barra{
-    margin-bottom: 1rem;
+  .barra {
+    margin-bottom: 0;
   }
   .barra_menu {
     flex-direction: column;
   }
-  .items{
+  .items {
     padding: 1.5rem 0;
     border-bottom: 1px solid rgba(145, 143, 143, 0.3);
+  }
+  .banner {
+    background-size: cover;
+  }
+  .cuadro_banner {
+    width: 75%;
+    height: 35%;
+  }
+  .descripcion {
+    width: 100%;
+    height: auto;
+    flex-direction: column;
+    align-items: center;
+  }
+  .seccion_botones {
+    flex-direction: column;
+    margin: 2rem auto;
+  }
+  .titulo_portfolio {
+    padding-top: 2.5rem;
+  }
+  .contenedor-portafolio {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 1.5rem;
+    margin: 0;
+  }
+  .cuadros-portafolio p {
+    margin: 1rem 3rem;
+  }
+  .btn {
+    right: 0;
   }
 }
