@@ -87,4 +87,35 @@
     right: 0;
     border-radius: 8px;
   }
+  /* -----------blog----------- */
+  .blog {
+    margin-top: 15rem;
+    flex-direction: column;
+    margin-bottom: 15rem;
+  }
+  .blog_caja {
+    width: 100%;
+    height: auto;
+  }
+  .cuadros-blog {
+    margin: 3rem;
+  }
+  .cuadros-blog img {
+    width: 100%;
+    height: auto;
+  }
+
+  /* ------------------ formulario ---------- */
+  .formulario_caja {
+    width: 75%;
+    margin-top: 4rem;
+  }
+
+  /* ------------------ footer ---------- */
+  .footer_superior {
+    flex-direction: column;
+  }
+  .descripcion_parrafo {
+    padding-bottom: 3rem;
+  }
 }
