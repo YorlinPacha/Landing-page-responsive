@@ -85,5 +85,6 @@
   }
   .btn {
     right: 0;
+    border-radius: 8px;
   }
 }
