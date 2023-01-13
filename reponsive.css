@@ -1,0 +1,57 @@
+/* --------------Responsive tablet --------------   -768*/
+@media screen and (min-width: 481px) and (max-width: 835px) {
+  .contenedor-portafolio {
+    gap: 1rem;
+    margin: 4rem 2rem;
+  }
+  .cuadros-blog img {
+    height: auto;
+  }
+  .boton_blog {
+    margin-bottom: 0.9rem;
+  }
+  .formulario_caja {
+    width: 50%;
+  }
+  .descripcion_parrafo {
+    text-align: justify;
+  }
+  .boton-caja2 {
+    margin: 1rem 0;
+  }
+  .titulos_footer {
+    font-size: 1.5rem;
+  }
+  .titulos_footer {
+    font-size: 1.4rem;
+  }
+  .iconos {
+    width: 2rem;
+    margin-bottom: 1.2rem;
+  }
+  .redes_contacto {
+    height: 7rem;
+  }
+  .redes_contacto-mail {
+    height: 4rem;
+  }
+  .copyright {
+    margin-top: 2rem;
+  }
+}
+/*-------------- mobile------------ */
+@media screen and (min-width: 320px) and (max-width: 480px) {
+  .section_menu {
+    height: auto;
+  }
+  .barra{
+    margin-bottom: 1rem;
+  }
+  .barra_menu {
+    flex-direction: column;
+  }
+  .items{
+    padding: 1.5rem 0;
+    border-bottom: 1px solid rgba(145, 143, 143, 0.3);
+  }
+}
