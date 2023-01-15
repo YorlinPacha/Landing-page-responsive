@@ -104,12 +104,17 @@
     width: 100%;
     height: auto;
   }
+  /* .boton_blog2 {
+    margin-top: 1.5rem;
+  } */
+
+
 
   /* ------------------ formulario ---------- */
-  .formulario_caja {
+  /* .formulario_caja {
     width: 75%;
-    margin-top: 4rem;
-  }
+    margin-top: 7rem;
+  } */
 
   /* ------------------ footer ---------- */
   .footer_superior {
@@ -126,4 +131,28 @@
     width: 75%;
     height: auto;
   }
+
+  /* .footer_inferior {
+    flex-direction: column;
+    align-items: center;
+    height: auto;
+  }
+  
+  .inferior {
+    width: 90%;
+    height: auto;
+  }
+
+  .copy_datos {
+    width: 90%;
+  }
+  .copy_datos-izq {
+    margin-left: 1rem;
+  }
+  .copy_datos-der {
+    margin-right: 1rem;
+  } */
 }
+
+
+
