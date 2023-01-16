@@ -58,7 +58,7 @@
     background-size: cover;
   }
   .cuadro_banner {
-    width: 75%;
+    width: 85%;
     height: 35%;
   }
   .descripcion {
@@ -105,25 +105,26 @@
     width: 100%;
     height: auto;
   }
-  .boton_blog{
+  .boton_blog {
     display: block;
     margin: 0 auto;
     padding: 1rem 2rem;
   }
-   .boton_blog2 {
+  .boton_blog2 {
     display: block;
     margin-top: 1.5rem;
-  } 
-
-
+  }
 
   /* ------------------ formulario ---------- */
-   .formulario_caja {
+  .formulario_caja {
     width: 75%;
     margin-top: 9rem;
-  } 
+  }
 
   /* ------------------ footer ---------- */
+  .titulos_footer {
+    text-align: center;
+  }
   .footer_superior {
     flex-direction: column;
     align-items: center;
@@ -132,7 +133,7 @@
     padding-bottom: 3rem;
     text-align: justify;
   }
-  .boton-caja2{
+  .boton-caja2 {
     display: block;
     margin: 0 auto;
   }
@@ -142,8 +143,11 @@
   .superior_caja2 {
     width: 75%;
     height: auto;
+    margin-top: 5rem;
   }
-
+  .agenda {
+    height: auto;
+  }
   .footer_inferior {
     flex-direction: column;
     align-items: center;
@@ -151,28 +155,24 @@
     height: auto;
     margin-top: 2rem;
   }
-  
+
   .inferior {
     width: 90%;
     height: auto;
   }
 
-  .redes_contacto{
+  .redes_contacto {
     margin-top: 2rem;
   }
-  .informacion_contenido{
+  .informacion_contenido {
     text-align: justify;
   }
   /* ------------------ COPY ---------- */
   .copy_datos {
     width: 100%;
   }
-  .copyright{
+  .copyright {
     flex-direction: column;
     height: auto;
   }
-
 }
-
-
-
